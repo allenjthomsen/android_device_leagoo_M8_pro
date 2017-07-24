@@ -288,6 +288,10 @@ etc/.tp/thermal.conf
 etc/.tp/.ht120.mtc
 etc/.tp/thermal.off.conf
 
+media/bootanimation.zip
+media/audio/ringtones/LEAGOO-Hero.mp3
+media/audio/ringtones/LEAGOO-Super.mp3
+
 usr/keylayout/mtk-kpd.kl
 usr/keylayout/ACCDET.kl
 

@@ -67,7 +67,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     $(LOCAL_PATH)/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
-    $(LOCAL_PATH)/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so
+    $(LOCAL_PATH)/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+    $(LOCAL_PATH)/proprietary/media/audio/ringtones/Resurrection_Ringtone2.mp3:system/media/audio/ringtones/Resurrection_Ringtone2.mp3 \
+    $(LOCAL_PATH)/proprietary/media/audio/ringtones/Resurrection.mp3:system/media/audio/ringtones/Resurrection.mp3 
 
 # Wifi
 PRODUCT_PACKAGES += \
