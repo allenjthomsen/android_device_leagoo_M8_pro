@@ -49,25 +49,32 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:system/etc/media_codecs_google_video_le.xml \
-    $(LOCAL_PATH)/configs/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
-    $(LOCAL_PATH)/configs/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml
-
-# Media	
-PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:/system/etc/audio_policy_volumes.xml \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:/system/etc/default_volume_tables.xml \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:/system/etc/r_submix_audio_policy_configuration.xml \
-    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:/system/etc/usb_audio_policy_configuration.xml
+    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:/system/etc/usb_audio_policy_configuration.xml \
+    $(LOCAL_PATH)/configs/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
+    $(LOCAL_PATH)/configs/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
+    $(LOCAL_PATH)/configs/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/em_svr:system/bin/em_svr \
     $(LOCAL_PATH)/proprietary/lib/libfprint-x32.so:system/lib/libfprint-x32.so \
     $(LOCAL_PATH)/proprietary/lib/sensors.mt6737m.so:system/lib/hw/sensors.mt6737m.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
-    $(LOCAL_PATH)/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     $(LOCAL_PATH)/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     $(LOCAL_PATH)/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libuvtswenc_sa.ca7.android.so:system/vendor/lib/libuvtswenc_sa.ca7.android.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvp8enc_sa.ca7.so:system/vendor/lib/libvp8enc_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvp9dec_sa.ca7.so:system/vendor/lib/libvp9dec_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libh264enc_sa.ca7.so:system/vendor/lib/libh264enc_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libh264enc_sb.ca7.so:system/vendor/lib/libh264enc_sb.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmp4enc_sa.ca7.so:system/vendor/lib/libmp4enc_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmp4enc_xa.ca7.so:system/vendor/lib/libmp4enc_xa.ca7.so \
     $(LOCAL_PATH)/proprietary/media/audio/ringtones/Resurrection_Ringtone2.mp3:system/media/audio/ringtones/Resurrection_Ringtone2.mp3 \
     $(LOCAL_PATH)/proprietary/media/audio/ringtones/Resurrection.mp3:system/media/audio/ringtones/Resurrection.mp3 
 

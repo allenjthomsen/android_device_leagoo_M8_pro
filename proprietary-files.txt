@@ -14,7 +14,6 @@ bin/mtkrild
 bin/thermald
 bin/thermal
 bin/bmm050d
-# bin/em_svr
 bin/nvram_agent_binder
 bin/ccci_mdinit
 bin/akmd09911
@@ -64,7 +63,6 @@ bin/netdiag
 bin/NativeMisc
 bin/pq
 bin/perf_native_test
-# bin/dm_agent_binder
 bin/ppl_agent
 bin/radvd
 
@@ -86,10 +84,10 @@ lib/libm4u.so
 lib/libfeatureiodrv.so
 lib/libem_modem_jni.so
 lib/libcam.utils.sensorlistener.so
-lib/libmp4enc_sa.ca7.so
+# lib/libmp4enc_sa.ca7.so
 lib/libstagefrighthw.so
 lib/libui_ext.so
-lib/libh264enc_sa.ca7.so
+# lib/libh264enc_sa.ca7.so
 lib/libfeatureio.so
 lib/libaudiocomponentengine.so
 lib/egl/libGLES_mali.so
@@ -119,7 +117,7 @@ lib/libdpframework.so
 lib/libbwc.so
 lib/libmnl.so
 lib/libmal.so
-lib/libvp8dec_sa.ca7.so
+# lib/libvp8dec_sa.ca7.so
 lib/librilmtk.so
 lib/libJpgDecPipe.so
 lib/libcam.camshot.so
@@ -150,7 +148,7 @@ lib/libccci_util.so
 lib/libnvram_platform.so
 lib/libshowlogo.so
 lib/libMtkOmxCore.so
-lib/libvp8enc_sa.ca7.so
+# lib/libvp8enc_sa.ca7.so
 lib/libmhalImageCodec.so
 lib/libaudio-resampler.so
 lib/libaudiocustparam.so
@@ -232,10 +230,10 @@ lib/libmmsdkservice.so
 lib/libmmsdkservice.feature.so
 lib/libbessound_hd_mtk.so
 lib/libbessurround_mtk.so
-lib/libvp9dec_sa.ca7.so
+# lib/libvp9dec_sa.ca7.so
 lib/lib3a.so
 lib/libdrmmtkwhitelist.so
-lib/libmp4enc_xa.ca7.so
+# lib/libmp4enc_xa.ca7.so
 lib/libnvram_sec.so
 lib/libcam3_hwpipeline.so
 lib/libcam.device3.so
@@ -283,7 +281,6 @@ etc/firmware/catcher_filter_1_lwg_n.bin
 etc/firmware/WMT_SOC.cfg
 etc/firmware/WIFI_RAM_CODE_6735
 etc/firmware/dsp_1_lwg_n.bin
-etc/mtk_omx_core.cfg
 etc/.tp/thermal.conf
 etc/.tp/.ht120.mtc
 etc/.tp/thermal.off.conf
