@@ -39,5 +39,11 @@ allow mnld storage_file:lnk_file read;
 
 allow mnld mdlog_device:chr_file { read write };
 
+allow mnld tmpfs:lnk_file { read create open };
+allow mnld mnt_user_file:dir search;
+allow mnld mnt_user_file:lnk_file read;
+
 file_type_auto_trans(mnld,system_data_file,mnld_data_file);
 file_type_auto_trans(mnld,apk_data_file,mnld_data_file);
+
+allow mnld system_data_file:file { open read getattr };

@@ -9,3 +9,4 @@ media.fp         u:object_r:fpserver_service:s0
 #fingerManager         u:object_r:system_server_service:s0
 fingerManager         u:object_r:fpserver_service:s0
 
+media.mmsdk         u:object_r:cameraserver_service:s0
