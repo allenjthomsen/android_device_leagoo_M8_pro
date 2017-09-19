@@ -40,6 +40,7 @@ ro.zygote.preload.enable=0
 ro.kernel.zio=38,108,105,16
 
 # Disable dirty region for Mali
+ro.hardware.egl=mali
 debug.hwui.render_dirty_regions=false
 ro.sf.lcd_density=320
 

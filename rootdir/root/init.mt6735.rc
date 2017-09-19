@@ -18,6 +18,10 @@ on init
     # if primary storage is physical, set ro.vold.primary_physical to 1
     # setprop ro.vold.primary_physical 1
 
+    # BATTERY proc
+    chown shell system /proc/mtk_battery_cmd/current_cmd
+    chown shell system /proc/mtk_battery_cmd/discharging_cmd
+
 # Temp Backward compatibility
     mkdir /protect_f 0771 system system
     mkdir /protect_s 0771 system system
@@ -556,6 +560,8 @@ on post-fs-data
     chmod 0777 /dev/MTK_SMI
     chown media media /dev/MTK_SMI
 
+    # for eng mode
+    chmod 0664 /dev/misc-sd
 
    #change partition permission
 
