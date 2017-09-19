@@ -540,9 +540,9 @@
     <string name="Audio_VOIPLogger_EnableText">Enable VOIP logger:</string>
     <string name="Audio_EPLDebug_FileText">File:/sdcard/mtklog/audio_dump/SPE_EPL.EPL</string>
     <string name="Audio_EPLDebug_Enable">Enable AP Speech log</string>
-    <string name="Audio_MaxVol_Text">Max Vol. 0~220 </string>
-    <string name="Audio_MaxVol_Text_headset">Max Headset Vol. 0~220 </string>
-    <string name="Audio_MaxVol_Text_speaker">Max Speaker Vol. 0~220 </string>
+    <string name="Audio_MaxVol_Text">Max Vol. 0~160 </string>
+    <string name="Audio_MaxVol_Text_headset">Max Headset Vol. 0~160 </string>
+    <string name="Audio_MaxVol_Text_speaker">Max Speaker Vol. 0~160 </string>
     <string name="Audio_MaxVol_Set">Set</string>
     <string name="Audio_VOIPLogger_Info">File Location: /sdcard/VOIP_DebugInfo</string>
     <string name="Audio_CTM4WAYLogger_EnableText">Enable CTM4WAY Logger</string>

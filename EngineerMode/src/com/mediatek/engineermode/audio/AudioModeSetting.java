@@ -106,7 +106,7 @@ public class AudioModeSetting extends Activity implements OnClickListener {
     /** set audio mode parameter value failed dialog id. */
     private static final int DIALOG_ID_SET_ERROR = 3;
     private static final int VALUE_RANGE_255 = 255;
-    private static final int VALUE_RANGE_160 = 220;
+    private static final int VALUE_RANGE_160 = 160;
     private static int sModeMicIndex = 2;
     private static int sModeSphIndex = 4;
     private static int sModeSph2Index = 4;
